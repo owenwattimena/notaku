@@ -1,0 +1,13 @@
+
+.w60{
+    width: 60%!important;
+}
+a.nav-link.dropdown-toggle::after{
+    margin-left: 0!important;
+}
+
+@media screen and (max-width: 600px) {
+    .w60{
+        width: 100%!important;
+    }
+  }
