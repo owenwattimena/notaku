@@ -61,10 +61,13 @@ die;
     </style>
 </head>
 <body>
-    <div class="width mx-auto">
-        <a href="#" id="unduh">Unduh</a>
+    <div class="btn-unduh width mx-auto mt-3">
+        <button id="unduh" class="btn btn-success w-100"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+            <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+            <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+          </svg> UNDUH</button>
     </div>
-    <div id="receipt" class="receipt mx-auto">
+    <div id="receipt" class="receipt mx-auto mt-2">
         <div class="header text-center">
             <pre class="mb-0 pt-5">{!! $nota->nama_toko !!}</pre>
             <pre class="mb-0">{!! $nota->alamat !!}</pre>
@@ -168,7 +171,7 @@ die;
         </footer>
         <hr>
     </div>
-    <div id="previewImg"></div>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <script src="{{ asset('assets/js/canvas.js') }}"></script>
     <script>
