@@ -154,6 +154,10 @@ class NotaController extends Controller
         $data['nota'] = Nota::with('item')->findOrFail($id);
         $data['type'] = $request->query('type');
         switch ($request->query('type')) {
+            case 'extra-large':
+                # code...
+                return view('nota.ekstra-besar', $data);
+                break;
             case 'large':
                 # code...
                 return view('nota.besar', $data);

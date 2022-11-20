@@ -35,6 +35,17 @@
                         <a href="{{ route('nota.preview', ['id'=> $nota->id,'type'=>'large']) }}" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
                             <div class="d-flex gap-2 w-100 justify-content-between">
                                 <div>
+                                    <h6 class="mb-0">Nota Ekstra Besar</h6>
+                                    <p class="mb-0 opacity-75">Nota besar dengan ukuran 8 CM.</p>
+                                </div>
+                            </div>
+                        </a>
+                       
+                    </div>
+                    <div class="list-group w-auto mb-3">
+                        <a href="{{ route('nota.preview', ['id'=> $nota->id,'type'=>'large']) }}" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                            <div class="d-flex gap-2 w-100 justify-content-between">
+                                <div>
                                     <h6 class="mb-0">Nota Besar</h6>
                                     <p class="mb-0 opacity-75">Nota besar dengan ukuran 7,9 CM.</p>
                                 </div>
