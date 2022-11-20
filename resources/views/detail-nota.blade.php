@@ -163,6 +163,7 @@
         Belum ada item barang.
     @endforelse --}}
 </ul>
+<pre class="text-center fw-bold" style="font-family: system-ui">{!! $nota->footer !!}</pre>
 <div class="modal fade" id="modalHapus" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
