@@ -35,7 +35,7 @@
                         <a href="{{ route('nota.preview', ['id'=> $nota->id,'type'=>'extra-large']) }}" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
                             <div class="d-flex gap-2 w-100 justify-content-between">
                                 <div>
-                                    <h6 class="mb-0">Nota Ekstra Besar</h6>
+                                    <h6 class="mb-0">Ekstra Besar</h6>
                                     <p class="mb-0 opacity-75">Nota besar dengan ukuran 8 CM.</p>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@
                         <a href="{{ route('nota.preview', ['id'=> $nota->id,'type'=>'large']) }}" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
                             <div class="d-flex gap-2 w-100 justify-content-between">
                                 <div>
-                                    <h6 class="mb-0">Nota Besar</h6>
+                                    <h6 class="mb-0">Besar</h6>
                                     <p class="mb-0 opacity-75">Nota besar dengan ukuran 7,9 CM.</p>
                                 </div>
                             </div>
@@ -57,7 +57,7 @@
                         <a href="{{ route('nota.preview', ['id'=> $nota->id,'type'=>'medium']) }}" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
                             <div class="d-flex gap-2 w-100 justify-content-between">
                                 <div>
-                                    <h6 class="mb-0">Nota Sedang</h6>
+                                    <h6 class="mb-0">Sedang</h6>
                                     <p class="mb-0 opacity-75">Nota sedang dengan ukuran 7,1 CM.</p>
                                 </div>
                             </div>
@@ -68,7 +68,7 @@
                         <a href="{{ route('nota.preview', ['id'=> $nota->id,'type'=>'small']) }}" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
                             <div class="d-flex gap-2 w-100 justify-content-between">
                                 <div>
-                                    <h6 class="mb-0">Nota Kecil</h6>
+                                    <h6 class="mb-0">Kecil</h6>
                                     <p class="mb-0 opacity-75">Nota kecil dengan ukuran 4,9 CM.</p>
                                 </div>
                             </div>
